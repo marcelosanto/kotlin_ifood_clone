@@ -23,7 +23,7 @@
             android:layout_gravity="end"
             android:paddingHorizontal="16dp"
             app:tint="@color/red"
-            />
+            android:contentDescription="@string/qrcode_scanner" />
     </androidx.appcompat.widget.Toolbar>
 
     <com.google.android.material.tabs.TabLayout
