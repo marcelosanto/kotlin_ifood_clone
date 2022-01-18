@@ -46,4 +46,4 @@ class TabViewPagerAdapter(fa: FragmentActivity) : FragmentStateAdapter(fa){
     }
 }
 
-class MarketplaceFragment : Fragment(){}
+class MarketplaceFragment : Fragment()
