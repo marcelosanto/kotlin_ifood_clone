@@ -10,12 +10,15 @@
     <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <Button
             android:layout_width="wrap_content"
+            style="@style/MyFoodButtonStyle"
             android:text="R. Rua ABC"
             android:textSize="13sp"
             android:drawableEnd="@drawable/ic_keyboard_arrow_down"
             android:layout_height="wrap_content" />
+
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -28,6 +31,7 @@
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/add_tab"
+        app:tabTextAppearance="@style/MyFoodTabLayoutAppearance"
         app:tabMode="auto"
         app:tabIndicatorFullWidth="false"
         app:tabIndicatorHeight="1dp"
@@ -40,6 +44,6 @@
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/add_viewpager"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent" />
 
 </LinearLayout>
